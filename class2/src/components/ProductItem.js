@@ -6,12 +6,18 @@ import './ProductItem.css';
 
 const ProductItem = (props) => {
 
-  const [title, setTitle] =  useState(props.title);
+  //useState is used to update UI on event happening
+  //state change happens oer component instance basis
+
+  //HW1--Why const??
+  const [title, setTitle] =  useState(props.title);//useState argument takes the initialisation value fot the variable
+  //(value of variable , function for updating the value)
 
 
   function clickHandler() {
     //title = "Popcorn";
     setTitle("Popcorn");
+    //HW2--Instantly happens or takes some time??
     console.log("button clicked");
   }
   
