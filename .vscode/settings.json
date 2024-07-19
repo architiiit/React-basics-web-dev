@@ -1,3 +1,27 @@
 {
-    "github.copilot.editor.enableAutoCompletions": false
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.preferredAccount": "architiiit",
+    "files.associations": {
+        "*.jsx": "javascriptreact"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "[typescriptreact]": {},
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "tailwindCSS.includeLanguages": {
+        "javascript": "javascript",
+        "javascriptreact": "javascriptreact",
+        "typescript": "typescript",
+        "typescriptreact": "typescriptreact"
+    },
+    "editor.quickSuggestions": {
+        "strings": true,
+        "other": true,
+        "comments": true,
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.codeActions": true
+   
 }

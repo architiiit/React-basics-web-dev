@@ -1,6 +1,6 @@
 import React from 'react';
 import NewProduct from './components/NewProduct';
-
+import './App.css';
 import Products from './components/Products';
 
 const App = () => {
